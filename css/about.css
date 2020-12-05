@@ -9,6 +9,17 @@ body{
 
 a{
     margin-left: 90%;
+    text-decoration: underline !important;
+}
+
+a:hover{
+    text-shadow: lightgreen 0 2px 2px;
+    filter: blur(1px);
+}
+
+p{
+    margin-left: 5%;
+    text-align: left;
 }
 
 h1{
@@ -42,4 +53,10 @@ h1{
     left: 0px;
     top: 0px;
     z-index: -1;
+}
+
+@media only screen and (max-width: 600px){
+    #_img{
+        visibility: hidden;
+    }
 }

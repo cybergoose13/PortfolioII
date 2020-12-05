@@ -1,7 +1,9 @@
 $(document).ready(function (params) {
     $('#title').hide();
     $('#title').slideDown(2000);
+    $('#myCarousel').carousel();
 })
+
 
 /* -----------------------------------------------
 /* How to use? : Check the GitHub README

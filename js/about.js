@@ -5,6 +5,7 @@ $(document).ready(function (params) {
     $('#title1').slideDown(2000);
     // $('#title2').show(2000);
     $('#title2').slideDown(2000);
+    
     // var t2 = $("#title2:not(:visible)");
     // var height = t2.css({
     //     display: "block"

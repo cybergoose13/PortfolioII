@@ -11,6 +11,30 @@ body{
     margin-left: 90%;
 }
 
+a{
+    text-decoration: underline !important;
+}
+
+a:not(#_home){
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
+
+a:hover{
+    text-shadow: yellow 0 2px 2px;
+}
+
+p{
+    margin-left: 30%;
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px){
+    p{
+        width: 60%;
+    }
+};
+
 h1{
     font-family: 'Goldman', cursive;
 }
