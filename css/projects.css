@@ -12,8 +12,15 @@ h1{
     font-family: 'Goldman', cursive;
 }
 
-/* p{
+p{
     position: relative;
+    margin-left: 50%;
+}
+
+/* img{
+    height: 400px !important;
+    width: 720px !important;
+    margin-left: 30%;
 } */
 
 #_home{
@@ -35,4 +42,14 @@ h1{
     left: 0px;
     top: 0px;
     z-index: -1;
+}
+
+#item-active{
+    justify-content: center;
+    align-items: center;
+    margin-left: 19%;
+}
+
+.carsousel-caption{
+    margin-left: 50%;
 }
