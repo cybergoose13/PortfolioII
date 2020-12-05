@@ -7,24 +7,24 @@ body{
     background-color: black !important;
 }
 
-a{
-    padding-top: 50px;
-    margin-left: 90%;
-    text-decoration: underline !important;
-}
-
-a:hover{
-    text-shadow: lightblue 0 2px 2px;
-    filter: blur(1px);
-}
-
 h1{
     position: relative;
     font-family: 'Goldman', cursive;
 }
 
-p{
+/* p{
     position: relative;
+} */
+
+#_home{
+    padding-top: 50px;
+    margin-left: 90%;
+    text-decoration: underline !important;
+}
+            
+#_home:hover{
+    text-shadow: lightblue 0 2px 2px;
+    filter: blur(1px);
 }
 
 #particles-js{
