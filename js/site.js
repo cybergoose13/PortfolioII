@@ -42,7 +42,7 @@ $(document).on('click', '#h1-projects', function (params) {
 
 $(document).on('mouseenter', '#h1-contact', function (params) {
     $(this).attr("style", "color: white !important");
-    $(this).text("Contact");
+    $(this).text("Contact Me");
 })
 
 $(document).on('mouseleave', '#h1-contact', function (params) {
