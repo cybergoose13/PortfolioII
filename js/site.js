@@ -47,7 +47,7 @@ $(document).on('mouseenter', '#h1-contact', function (params) {
 
 $(document).on('mouseleave', '#h1-contact', function (params) {
     $(this).attr("style", "color: #dc3545 !important");
-    $(this).text("Josh");
+    $(this).text("Contact");
 })
 
 $(document).on('click', '#h1-contact', function (params) {
