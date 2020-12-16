@@ -56,7 +56,20 @@ h1{
 }
 
 @media only screen and (max-width: 600px){
+    *{
+        overflow-x: hidden;
+    }
+    a{
+        margin: 85%;
+    }
     #_img{
         visibility: hidden;
+    }
+
+    h1{
+        font-size: xx-large !important;
+    }
+    div{
+        width: 100% !important;
     }
 }

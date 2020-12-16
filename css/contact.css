@@ -29,12 +29,6 @@ p{
     width: 40%;
 }
 
-@media only screen and (max-width: 600px){
-    p{
-        width: 60%;
-    }
-};
-
 h1{
     font-family: 'Goldman', cursive;
 }
@@ -48,3 +42,16 @@ h1{
     top: 0px;
     z-index: -1;
 }
+
+@media only screen and (max-width: 600px){
+
+    h1{
+        font-size: xx-large !important;
+    }
+    #_home{
+        margin-left: 85% !important;
+    }
+    p{
+        width: 60%;
+    }
+};

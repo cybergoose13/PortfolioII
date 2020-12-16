@@ -53,3 +53,17 @@ p{
 .carsousel-caption{
     /* margin-left: 50%; */
 }
+
+@media only screen and (max-width: 600px){
+    *{
+        overflow-x: hidden;
+    }
+
+    a{
+        margin-left: 85% !important;
+    }
+
+    h1{
+        font-size: xx-large !important;
+    }
+}
