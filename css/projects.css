@@ -50,16 +50,13 @@ p{
     margin-left: 19%;
 }
 
-.carsousel-caption{
-    /* margin-left: 50%; */
-}
 
 @media only screen and (max-width: 600px){
     *{
         overflow-x: hidden;
     }
 
-    a{
+    #_home{
         margin-left: 85% !important;
     }
 

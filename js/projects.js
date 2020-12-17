@@ -1,7 +1,13 @@
 $(document).ready(function (params) {
     $('#title').hide();
     $('#title').slideDown(2000);
-    $('#myCarousel').carousel();
+    $('#myCarousel').carousel({
+      interval: 2000
+    });
+})
+
+$('#myCarousel').on('click', function(params){
+  
 })
 
 
