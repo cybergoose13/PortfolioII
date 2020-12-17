@@ -45,6 +45,9 @@ h1{
 
 @media only screen and (max-width: 600px){
 
+    *{
+        align-items: center;
+    }
     h1{
         font-size: xx-large !important;
     }
@@ -52,6 +55,7 @@ h1{
         margin-left: 85% !important;
     }
     p{
-        width: 60%;
+        margin-left: 20%;
+        width: 65%;
     }
 };
