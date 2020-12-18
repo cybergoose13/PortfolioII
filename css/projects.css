@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 
 body{
     background-color: black !important;
@@ -17,17 +17,15 @@ p{
     margin-left: 50%;
 }
 
-/* img{
-    height: 400px !important;
-    width: 720px !important;
-    margin-left: 30%;
-} */
-
-#_home{
+a:not(.carousel-control){
+    margin-left: 90%;
+    text-decoration: underline;
+}
+/* #_home{
     padding-top: 50px;
     margin-left: 90%;
     text-decoration: underline !important;
-}
+} */
             
 #_home:hover{
     text-shadow: lightblue 0 2px 2px;
@@ -50,13 +48,13 @@ p{
     margin-left: 19%;
 }
 
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 400px){
     *{
         overflow-x: hidden;
     }
 
     #_home{
+        position: fixed;
         margin-left: 85% !important;
     }
 
