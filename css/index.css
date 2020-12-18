@@ -37,31 +37,37 @@ h1{
 
 #h1-about{
     position: absolute;
+    font-size: 100pt;
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 35%;
     width: 350px;
     height: 100px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 #h1-projects{
     position: absolute;
-    margin-top: 25%;
-    margin-left: 17%;
+    font-size: 100pt;
+    margin-top: 17%;
+    margin-left: 35%;
     /* margin-top: 300px;
     margin-left: 200px; */
     width: 400px;
     height: 100px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 #h1-contact{
     position: absolute;
-    margin-top: 40%;
-    margin-left: 16.5%;
+    font-size: 100pt;
+    margin-top: 24%;
+    margin-left: 35%;
     width: 200px;
     height: 100px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 #m_img{
@@ -76,8 +82,16 @@ h1{
     *{
         overflow-x: hidden;
     }
+
     h1{
+        position: relative !important;
+        margin-left: 15% !important;
+        margin-top: 2% !important;
         width: 80% !important;
-        font-size: xxx-large !important;
+        font-size: 46pt !important;
+    }
+
+    #h1-about{
+        margin-top: 50% !important;
     }
 }

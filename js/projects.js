@@ -2,7 +2,7 @@ $(document).ready(function (params) {
     $('#title').hide();
     $('#title').slideDown(2000);
     $('#myCarousel').carousel({
-      interval: 2000
+      interval: 5000
     });
 })
 
