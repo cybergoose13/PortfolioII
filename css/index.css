@@ -23,6 +23,7 @@ p{
 
 h1{
     font-family: 'Goldman', cursive;
+    align-items: center;
 }
 
 #particles-js{
@@ -43,6 +44,7 @@ h1{
     width:fit-content;
     height: 100px;
     white-space: nowrap;
+    display: none;
     cursor: pointer;
 }
 
@@ -56,6 +58,7 @@ h1{
     width: fit-content;
     height: 100px;
     white-space: nowrap;
+    display: none;
     cursor: pointer;
 }
 
@@ -67,6 +70,7 @@ h1{
     width: fit-content;
     height: 100px;
     white-space: nowrap;
+    display: none;
     cursor: pointer;
 }
 

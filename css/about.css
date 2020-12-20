@@ -79,6 +79,9 @@ h1{
     h1{
         font-size: xx-large !important;
     }
+    p{
+        font-size: 12pt;
+    }
     /* .parent{
         width: 100% !important;
     } */
